@@ -29,3 +29,4 @@ class Game():
     @loose_msg.setter
     def loose_msg(self,new_loose_msg):
         pass
+
