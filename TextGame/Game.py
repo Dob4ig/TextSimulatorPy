@@ -16,7 +16,11 @@ class Game():
     @property
     def loose_msg(self):
         pass
-    
+    @property
+    def data_path(self):
+        pass
+
+
     @greeting.setter
     def greeting (self,new_greeting):
         pass
@@ -29,4 +33,6 @@ class Game():
     @loose_msg.setter
     def loose_msg(self,new_loose_msg):
         pass
-
+    @data_path.setter
+    def data_path(self,new_data_path):
+        pass
