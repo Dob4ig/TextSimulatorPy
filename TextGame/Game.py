@@ -7,8 +7,8 @@ class Game():
         self._help_msg=None
         self._win_msg=None
         self._loose_msg=None
+        self._day=1
         self._data_path=None
-
 
     @property
     def greeting(self):
@@ -22,6 +22,9 @@ class Game():
     @property
     def loose_msg(self):
         return self._loose_msg
+    @property
+    def day(self):
+        return self._day
     @property
     def data_path(self):
         return self._data_path
@@ -39,6 +42,9 @@ class Game():
     @loose_msg.setter
     def loose_msg(self,new_loose_msg:str):
         self._loose_msg=new_loose_msg
+    @day.setter
+    def day(self,new_day):
+        self._day=new_day
     @data_path.setter
     def data_path(self,new_data_path:str):
         self._data_path=new_data_path
