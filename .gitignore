@@ -1,6 +1,0 @@
-*.log
-*.db
-*cache
-*.vscode
-*.pyc
-__pycache__
