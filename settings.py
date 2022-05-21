@@ -10,5 +10,6 @@ game.help_msg="Ваша цель продержаться 100 дней!"#Ред�
 
 
 player=Player()
-
-
+player.health_point=100
+player.money=10
+player.stamina=3
