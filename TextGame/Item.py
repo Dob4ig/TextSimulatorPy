@@ -1,4 +1,6 @@
 
+
+
 class Item():
 
     def __init__(self,name:str=None,cost:int=0,effect:int=0) -> None:
@@ -26,3 +28,11 @@ class Item():
     @effect.setter
     def effect(self,new_effect):
         self._effect=new_effect
+
+    @staticmethod
+    def display(list:list):
+          for item in enumerate(list):
+           print(f"{item[0]}. {item[1]}")
+
+    def __str__(self) -> str:
+        return f"{self.name} потратите:{self.cost} получите:{self.effect}"
