@@ -9,7 +9,7 @@ class Game():
         self._loose_msg=None
         self._day=1
         self._data_path=None
-
+        self._menu=None
     @property
     def greeting(self):
         return self._greeting
@@ -28,7 +28,9 @@ class Game():
     @property
     def data_path(self):
         return self._data_path
-
+    @property
+    def menu(self):
+        return self._menu
 
     @greeting.setter
     def greeting (self,new_greeting:str):
@@ -48,7 +50,9 @@ class Game():
     @data_path.setter
     def data_path(self,new_data_path:str):
         self._data_path=new_data_path
-
+    @menu.setter
+    def menu(self,new_menu):
+        self._menu=new_menu
 
 
 
