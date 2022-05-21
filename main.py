@@ -1,5 +1,6 @@
 from settings import game, player
-
+from work import works
+from food import foods
 
 #Точка входа игрока.
 print(game.greeting)
